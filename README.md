@@ -50,3 +50,9 @@ To plot results
 ```
 python plot.py yourssid.csv
 ```
+
+Results file
+![Screenshot of results file](https://raw.githubusercontent.com/Pokawa/idle-speed-test/master/img1.png "results file")
+
+Data in plotly
+![Screenshot of ploted data](https://raw.githubusercontent.com/Pokawa/idle-speed-test/master/img2.png "ploted data")
