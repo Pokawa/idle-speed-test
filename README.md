@@ -1,7 +1,7 @@
 # Idle SpeedTest Service
 
 Bash script that let's you perform background speedtests for your wifi netwowork.
-And python script to plot the results
+And python script to plot the results and print stats
 
 ## Getting Started
 
@@ -51,8 +51,16 @@ To plot results
 python plot.py yourssid.csv
 ```
 
+To print stats from last day/week/month
+```
+python stats.py yourssid.csv day/week/month
+```
+
 Results file
 ![Screenshot of results file](https://raw.githubusercontent.com/Pokawa/idle-speed-test/master/img1.png "results file")
 
 Data in plotly
 ![Screenshot of ploted data](https://raw.githubusercontent.com/Pokawa/idle-speed-test/master/img2.png "ploted data")
+
+Stats in python
+![Screenshot of stats](https://raw.githubusercontent.com/Pokawa/idle-speed-test/master/img3.png "printed stats")
